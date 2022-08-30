@@ -17,6 +17,7 @@
             <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
         </ul>
     </nav>
+    <h1>Hi, my name is Jonathan Runge. But my friends call me "Yoni".</h1>
     <div class="coverPage">
 
     </div>
@@ -26,6 +27,19 @@
     <div class="coreComp">
 
     </div>
+    
+    <script>
+        function dropdownMenu() {
+            var x = document.getElementById("dropdownClick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                /*Change "topnav" to "topnav.responsive"*/
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
     <footer class="Contact Info">
 
     </footer>
